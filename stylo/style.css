@@ -1,0 +1,9 @@
+body {
+    background-image: url("/assets/fondo.jpg");
+}
+
+h2 {
+
+    color: antiquewhite;
+    padding-bottom: 30px;
+}
