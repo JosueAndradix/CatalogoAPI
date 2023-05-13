@@ -54,3 +54,8 @@ function getCatalog() {
             console.log('Error:', error);
         });
 }
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    getCatalog();
+});
