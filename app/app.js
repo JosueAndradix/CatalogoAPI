@@ -2,6 +2,9 @@
 
 const apiKey = '8iQRRld55447eki9fJyw0xESAOvOqGtxORa7DfrA';
 
+
+//obtener las cards del API y pintarloOOoooS
+
 function getCatalog() {
     const url = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}&count=30`;
 
@@ -13,7 +16,6 @@ function getCatalog() {
 
             data.forEach(item => {
 
-                
                 
                 const card = document.createElement('div');
                 card.style.background = 'black';
@@ -50,12 +52,12 @@ function getCatalog() {
                 catalogElement.appendChild(card);
             });
         })
-        .catch(error => {
-            console.log('Error:', error);
+     
+        };
+
+        document.addEventListener('DOMContentLoaded', () => {
+            getCatalog();
         });
-}
+        
 
 
-document.addEventListener('DOMContentLoaded', () => {
-    getCatalog();
-});

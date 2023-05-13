@@ -7,3 +7,7 @@ h2 {
     color: antiquewhite;
     padding-bottom: 30px;
 }
+
+#searchInput{
+    margin-bottom: 70px;
+}
