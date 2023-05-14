@@ -4,10 +4,70 @@ body {
 
 h2 {
 
-    color: antiquewhite;
-    padding-bottom: 30px;
+    font-family: 'Arial', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  margin:50px;
 }
 
 #searchInput{
     margin-bottom: 70px;
 }
+
+#searchInput {
+    padding: 10px;
+    border: 2px solid #6b0daa;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #191970;
+    background-color: #f2f2f2;
+  }
+  
+  #searchInput::placeholder {
+    color: #888888;
+  }
+  
+  #searchInput:focus {
+    outline: none;
+    border-color: #000080;
+    box-shadow: 0 0 4px rgba(25, 25, 112, 0.6);
+  }
+
+#reloadButton{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+
+#reloadButton {
+    padding: 12px 24px;
+    background-color: #1a1ace;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+  }
+  
+  #reloadButton:hover {
+    background-color: #7171cc;
+  }
+  
+  #reloadButton:focus {
+    outline: none;
+  }
+  
+  #reloadButton:active {
+    background-color: #000033;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transform: translateY(1px);
+  }
