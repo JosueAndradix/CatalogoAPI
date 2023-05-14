@@ -1,4 +1,4 @@
-// Coloca tus credenciales de API aquí
+
 const apiKey = '8iQRRld55447eki9fJyw0xESAOvOqGtxORa7DfrA';
 
 let originalData = [];
@@ -71,5 +71,4 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 
- 
 });
